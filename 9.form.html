@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <!-- 
+    elemen pada form 
+    input = dimana user bisa menginputkan sesuatu /kolom
+    textarea = untuk membuat komentar/pesan
+    select = untuk dropdown/combo box
+    button = tombol untuk mengirimkan data
+    label = untuk menandai sebuah elemen input
+    -->
+
+    <!-- 
+    tag input memiliki atribut type miliki beberapa nilai/value
+    text 
+    password
+    radio
+    checkbox
+    
+    tag button memiliki beberapa atribut
+    submit
+    reset
+    button
+    -->
+    <!-- <form action="">
+      <label for="username">username :</label>
+      <input type="text" id="username" />
+      <br />
+      <label for="password">password :</label>
+      <input type="password" name="" id="password" />
+      <br />
+      <input type="radio" name="jeniskelamin" id="pria" /> <label for="pria">pria</label> <input type="radio" name="jeniskelamin" id="wanita" /> <label for="wanita">wanita</label>
+      <br />
+      <input type="checkbox" name="" id="menyanyi" /> <label for="menyanyi">menyanyi</label> <input type="checkbox" name="" id="olahraga" /> <label for="olahraga">olahraga</label> <input type="checkbox" name="" id="berenang" />
+      <label for="berenang">berenang</label>
+      <br />
+      <textarea name="" id=""></textarea>
+      <br />
+      <select name="" id="">
+        <option value="">bandung</option>
+        <option value="">jakarta</option>
+        <option value="">surabaya</option>
+      </select>
+      <button type="submit">kirim</button>
+    </form> -->
+
+    <table border="0" cellspacing="0" cellpadding="5" align="center">
+      <form action="">
+        <tr>
+          <td><label for="username">Username</label></td>
+          <td><label for="username">:</label></td>
+          <td><input type="username" id="username" /></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password</label></td>
+          <td><label for="password">:</label></td>
+          <td><input type="password" id="password" /></td>
+        </tr>
+        <tr>
+          <td><label for="jeniskelamin">Jenis Kelamin</label></td>
+          <td><label for="jeniskelamin">:</label></td>
+          <td colspan="2"><input type="radio" name="jeniskelamin" id="pria" /> <label for="pria">pria</label> <input type="radio" name="jeniskelamin" id="wanita" /> <label for="wanita">wanita</label></td>
+        </tr>
+        <tr>
+          <td><label for="hobby">Hobby</label></td>
+          <td><label for="hobby">:</label></td>
+          <td colspan="3">
+            <input type="checkbox" name="" id="menyanyi" /> <label for="menyanyi">menyanyi</label> <input type="checkbox" name="" id="olahraga" /> <label for="olahraga">olahraga</label> <input type="checkbox" name="" id="berenang" />
+            <label for="berenang">berenang</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="tempattinggal">tempat tinggal</label></td>
+          <td><label for="tempattinggal">:</label></td>
+          <td>
+            <select name="tempattinggal" id="tempattinggal">
+              <option value="">bandung</option>
+              <option value="">jakarta</option>
+              <option value="">surabaya</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="pesan"> pesan</label></td>
+          <td><label for="pesan">:</label></td>
+          <td><textarea name="pesan" id="pesan"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="3" align="center"><button type="submit">kirim</button></td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
